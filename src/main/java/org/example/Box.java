@@ -1,3 +1,5 @@
+package src.main.java.org.example;
+
 import java.awt.*;
 
 /**
@@ -5,7 +7,7 @@ import java.awt.*;
  */
 
 
-public class Oval extends Shape {
+public class Box extends Shape {
 
     public Box(Point p1, Point p2, Color color) {
 

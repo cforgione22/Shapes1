@@ -1,3 +1,5 @@
+package src.main.java.org.example;
+
 import java.awt.*;
 
 /**
@@ -5,12 +7,13 @@ import java.awt.*;
  */
 
 
-public class Box extends Shape {
+public class Line extends Shape {
 
-    public Box(Point p1, Point p2, Color color) {
+    public Line(Point p1, Point p2, Color color) {
 
         super(p1, p2, color);
     }
+
 
     @Override
     public void draw(Graphics g) {

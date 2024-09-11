@@ -1,3 +1,5 @@
+package src.main.java.org.example;
+
 import java.awt.*;
 /**
  *  abstract parent class
@@ -50,7 +52,7 @@ public abstract class Shape {
         this.color = color;
     }
 
-    public Color getColor(Color red)
+    public Color getColor()
     {
         return color;
     }
